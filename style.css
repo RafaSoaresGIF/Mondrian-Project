@@ -1,0 +1,44 @@
+.body,html{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF7FC;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.paint-container{
+    width: 15rem;
+    height: 15rem;
+    background-color:#8B93FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 0.5fr;
+    grid-template-rows: 0.5fr 3fr 2fr;
+    gap: 1rem;
+    border: solid black 1rem;
+    border-radius: 10px;
+}
+.yellow-s{
+    background-color:#FF71CD;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.blue-s{
+    background-color: #5755FE;
+    grid-column: 3;
+    grid-row: 3;
+}
+.red-s{
+    background-color: #F8F6E3;
+    grid-column: 3;
+    grid-row: span 4;
+}
+.green-s{
+    background-color: #EADFB4;
+    grid-column: 3;
+    grid-row: 2;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
